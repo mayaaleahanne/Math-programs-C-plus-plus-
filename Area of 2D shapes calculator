@@ -2,6 +2,10 @@
 #include <cmath> // Used for math functions included in this program. 
 using namespace std;
 
+/* This program calculates the areas of 2D shapes and returns the results
+to the user. 
+*/
+
 // Function prototypes:
 // Displays shape menu and takes input. 
 void select_shape(const string prompt, int & shapeNum);
