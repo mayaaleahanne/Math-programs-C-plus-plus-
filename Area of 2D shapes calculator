@@ -188,7 +188,7 @@ int main()
         cout << endl;
         // Display results. 
         cout << "Area of circle is: " << area_circle(r) / M_PI;
-        cout << " π (" << area_circle(r) << ") square units." << endl;
+        cout << "π (" << area_circle(r) << ") square units." << endl;
         // Call function to prompt user to continue or exit program. 
         exit_or_continue("Enter 0 to exit program, 1 to find the area of another shape", exitNum); 
     }
@@ -211,7 +211,7 @@ int main()
         cout << endl;
         // Display results. 
         cout << "Area of ellipse is: " << area_ellipse(r1, r2) / M_PI;
-        cout << " π (" << area_ellipse(r1, r2) << ") square units." << endl;
+        cout << "π (" << area_ellipse(r1, r2) << ") square units." << endl;
         // Call function to prompt user to continue or exit program. 
         exit_or_continue("Enter 0 to exit program, 1 to find the area of another shape", exitNum); 
     }
@@ -445,7 +445,7 @@ void exit_or_continue(const string & prompt, int & exitNum)
         cout << endl;
         // Display results. 
         cout << "Area of circle is: " << area_circle(r) / M_PI;
-        cout << " π (" << area_circle(r) << ") square units." << endl;
+        cout << "π (" << area_circle(r) << ") square units." << endl;
         // Call function to prompt user to continue or exit program. 
         exit_or_continue("Enter 0 to exit program, 1 to find the area of another shape", exitNum); 
     }
@@ -468,7 +468,7 @@ void exit_or_continue(const string & prompt, int & exitNum)
         cout << endl;
         // Display results. 
         cout << "Area of ellipse is: " << area_ellipse(r1, r2) / M_PI;
-        cout << " π (" << area_ellipse(r1, r2) << ") square units." << endl;
+        cout << "π (" << area_ellipse(r1, r2) << ") square units." << endl;
         // Call function to prompt user to continue or exit program. 
         exit_or_continue("Enter 0 to exit program, 1 to find the area of another shape", exitNum); 
     }
