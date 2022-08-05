@@ -35,7 +35,7 @@ double area_circle(double r);
 double area_ellipse(double r1, double r2); 
 // 1st parameter is radius 1, 2nd is radius 2.
 
-// Exit or continue function. 
+// Exits or continues program. 
 void exit_or_continue(const string & prompt, int & exitNum); 
 // 1st parameter is user prompt, 2nd is user entered number. 
 
