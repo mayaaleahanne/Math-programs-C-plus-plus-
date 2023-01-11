@@ -1,6 +1,6 @@
-#include<iostream>
+#include <iostream>
 
-main() {
+int main() {
     std::cout << "TEST!";
 
     return 0;
